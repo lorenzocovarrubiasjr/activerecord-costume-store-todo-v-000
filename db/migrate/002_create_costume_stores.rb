@@ -7,7 +7,7 @@ class CreateCostumeStores < ActiveRecord::Migration[5.1]
     t.integer :costume_inventory
     t.integer :num_of_employees
     t.boolean :still_in_business
-    t.size :string
+    t. :opening_time
     t.image_url :string 
     
     t.timestamps
